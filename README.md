@@ -13,8 +13,7 @@ La columna OCDE es **ficticia** y solo sirve para probar la maqueta.
 | `datos_radar.json` | Cifras del mes (lo genera el paso 1). |
 | `analisis_borrador.md` | Borrador del análisis escrito por reglas (lo genera el paso 1). |
 | `analisis_final.md` | Texto revisado a mano que muestra la página. El paso 1 nunca lo toca. |
-| `JRC_correspondencias_y_niveles.xlsx` | Correspondencias y niveles de exposición JRC. |
-| `design/` | Identidad visual del Observatorio (`design.md`) y logotipos SVG. |
+| `GUIA RADAR-IA-EMPLEO ejecucion de scripts.txt` | Guía breve del flujo mensual. |
 
 ## Flujo mensual
 
