@@ -1,0 +1,22 @@
+
+El flujo mensual del radar sería:
+
+1. Ejecutar Crear_datos_json_y_borrador_analisis.bat
+Este ejecuta internamente el Crear_datos_json_y_borrador_analisis.py
+y muestra mensajes del flujo de trabajo
+Genera el datos_radar.json
+y analisis_borrador.md
+
+2. Ese borrador de analisis hay que revisarlo y corregirlo, con o sin ayuda de la IA
+Se elabora un analisis_final.md
+
+3. Se ejecuta python comprobar analisis_final.md
+por si estan mal los datos o las fechas
+
+4. Se suben los dos ficheros al servidor Web donde esté la pagina: radar-ia-empleo-produccion.html
+y la página cambia los datos y los comentarios que absorbe de estos dos ficheros.
+datos_radar.json y analisis_final.md
+
+5. Si quieres tener todo en una página "demo" para enviar
+Se ejecuta python embeber_datos.py y genera la página radar-ia-empleo-embebido.html
+ 
