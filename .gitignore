@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.bak
+*.bak.*
+# Excel mensual de entrada (se copia en la carpeta para ejecutar el paso 1; no se versiona)
+Datos radar SEPE original.xlsx
+Datos_radar_SEPE_original.xlsx
+~$*.xlsx
